@@ -150,3 +150,6 @@ function difference(set) {
 function show() {
   return this.dataStore;
 }
+
+
+module.exports = Set;

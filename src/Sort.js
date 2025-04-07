@@ -1,3 +1,8 @@
+/**
+ * 
+ * @param {*} list 
+ * @returns 
+ */
 module.exports.sortPricesLowestUp = function(list) {
   var list2 = [];
   var list3 = [];

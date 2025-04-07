@@ -1,6 +1,6 @@
-const List = require("./List");
-const Set = require("./Set");
-const {CArray} = require("./Sort");
+const List = require("../src/List");
+const Set = require("../src/Set");
+const { CArray } = require("../src/Sort");
 
 // function Person(name, gender) {
 //   this.name = name;
@@ -124,7 +124,6 @@ const {CArray} = require("./Sort");
 // var misspelled = words.filter(afterc);
 // console.log(misspelled);
 
-
 // function Point(x, y) {
 // 	this.x = x;
 // 	this.y = y;
@@ -136,6 +135,16 @@ const {CArray} = require("./Sort");
 // 	}
 // }
 
+// var g = new Graph(6);
+// g.addEdge(1,2);
+// g.addEdge(2,5);
+// g.addEdge(1,3);
+// g.addEdge(1,4);
+// g.addEdge(0,1);
+// g.vertexList = ["CS1", "CS2", "Data Structures", "Assembly Language", "Operating Systems", "Algorithms"];
+// g.showGraph();
+// g.topSort();
+
 var numElements = 100;
 var myNums = new CArray(numElements);
 myNums.setData();
@@ -146,5 +155,5 @@ console.log("sorted: ");
 console.log(myNums.toString());
 
 var s = new Set();
-s.add([1,2])
-console.log(s.show())
+s.add([1, 2]);
+console.log(s.show());

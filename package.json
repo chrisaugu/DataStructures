@@ -1,0 +1,28 @@
+{
+  "name": "@chrisaugu/data-structures",
+  "version": "1.0.0",
+  "description": "Simple Data Structure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node",
+    "ci": "npm run build",
+    "test": "node tests/displayList.js"
+  },
+  "directories": {
+    "test": "tests",
+    "src": "src"
+  },
+  "files": ["src"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisaugu/DataStructures.git"
+  },
+  "keywords": ["data structure", "queue"],
+  "homepage": "https://github.com/chrisaugu/DataStructures",
+  "bugs": {
+    "url": "https://github.com/chrisaugu/DataStructures/issues"
+  },
+  "author": "Christian Augustyn",
+  "license": "MIT"
+}
