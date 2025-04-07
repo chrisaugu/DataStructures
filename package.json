@@ -10,14 +10,16 @@
     "test": "node tests/displayList.js"
   },
   "directories": {
-    "test": "tests",
-    "src": "src"
+    "test": "tests"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chrisaugu/DataStructures.git"
   },
-  "keywords": ["data structure", "queue"],
+  "keywords": [
+    "data structure",
+    "queue"
+  ],
   "homepage": "https://github.com/chrisaugu/DataStructures",
   "bugs": {
     "url": "https://github.com/chrisaugu/DataStructures/issues"
