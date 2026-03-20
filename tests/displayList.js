@@ -1,6 +1,6 @@
-const List = require("../src/List");
-const Set = require("../src/Set");
-const { CArray } = require("../src/Sort");
+const List = require("../src/implementations/List");
+const Set = require("../src/implementations/Set");
+const { CArray } = require("../src/implementations/Sort");
 
 // function Person(name, gender) {
 //   this.name = name;
