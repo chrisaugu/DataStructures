@@ -1,10 +1,10 @@
-const Graph = require("./src/implementations/Graph");
-const Iterator = require("./src/implementations/Iterator");
-const List = require("./src/implementations/List");
-const Queue = require("./src/implementations/Queue");
-const Set = require("./src/implementations/Set");
-const Sort = require("./src/implementations/Sort");
-const Stack = require("./src/implementations/Stack");
+import Graph from "./src/implementations/Graph";
+import Iterator from "./src/implementations/Iterator";
+import List from "./src/implementations/List";
+import Queue from "./src/implementations/Queue";
+import Set from "./src/implementations/Set";
+import Sort from "./src/implementations/Sort";
+import Stack from "./src/implementations/Stack";
 
 exports = {
   Graph,
